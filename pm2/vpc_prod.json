@@ -3,8 +3,8 @@
     {
       "name": "next-js-template",
       "script": "server.js",
-      "error_file": "/next-js-template.error.log",
-      "out_file": "/next-js-template.access.log",
+      "error_file": "/tmp/next-js-template.error.log",
+      "out_file": "/tmp/next-js-template.access.log",
       "merge_logs": true,
       "instances": 4,
       "args": " ",
