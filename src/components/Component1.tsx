@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {rgba} from "../styles/style-utils";
 import {action, observable} from "mobx";
 import {inject, observer} from "mobx-react";
-import {cdn} from "../utils/cdn"
+// import {cdn} from "../utils/cdn"
 import axios from "../drivers/clientAxios"
 
 let Wrapper = styled.div`
@@ -38,7 +38,7 @@ let Wrapper = styled.div`
 `;
 
 class Store {
-  @observable field1 = 1; // 三种模式1:闪灯 2：闪灯+鸣笛 3：鸣笛
+  @observable field1 = 1; // 三种模式
   @action
   setSeekMode(field1) {
     this.field1 = field1;
