@@ -87,7 +87,7 @@
     "svg-url-loader": "^3.0.2",
     "through2": "^3.0.1",
     "typescript": "^3.6.3",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "url-loader": "^2.1.0"
   }
 }
